@@ -1,17 +1,15 @@
 #include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
 /**
  * main - Entry
- * Description -  I sometimes suffer from insomnia
+ * Description - Printing the alphabets
  * Return: 0
  */
 int main(void)
 {
-		char alph[26] - "abcdefghijklmnopqrstuvwxyz";
+		char alph[26] = "abcdefghijklmnopqrstuvwxyz";
 			int i;
 
-		for (i - 0; i < 26; i++)
+		for (i = 0; i < 26; i++)
 		{
 			putchar(alph[i]);
 		}
