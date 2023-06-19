@@ -1,4 +1,3 @@
-#include <studio.h>
 #include <time.h>
 #include <stdlib.h>
 /**
