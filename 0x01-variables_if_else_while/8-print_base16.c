@@ -9,10 +9,13 @@ int main(void)
 	char i;
 
 	for (num = 0; num < 10; num++)
+	{
 		putchar((num % 10) + '0');
-
+	}
 	for (i = 'a'; i <= 'z'; i++)
+	{
 		putchar(i);
+	}
 	putchar('\n');
 	return (0);
 }
