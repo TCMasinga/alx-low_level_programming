@@ -5,7 +5,7 @@
  * @b: second int
  * Return: addition of multiplication
  */
-in mul(int a, int b)
+int mul(int a, int b)
 {
 	return (a * b);
 }
