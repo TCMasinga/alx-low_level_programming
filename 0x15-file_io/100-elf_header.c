@@ -191,7 +191,7 @@ void print_osabi(unsigned char *e_ident)
 		break;
 
 	case ELFOSABI_STANDALONE:
-		printf("Standalone App\n");
+		printf("Standalone - App\n");
 		break;
 
 	default:
