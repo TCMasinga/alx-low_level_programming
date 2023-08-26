@@ -189,14 +189,6 @@ void print_osabi(unsigned char *e_ident)
 	case ELFOSABI_ARM:
 		printf("ARM\n");
 		break;
-
-	case ELFOSABI_STANDALONE:
-		printf("Standalone - App\n");
-		break;
-
-	default:
-		printf("<unknown: %x>\n", e_ident[EI_OSABI]);
-	}
 }
 
 /**
